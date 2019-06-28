@@ -3,7 +3,7 @@
 #
 
 FROM alpine:latest
-LABEL maintainer="cuteribs <ericfine1981@live.com>"
+LABEL maintainer="seanlee <seanlee91220@126.com>"
 
 # apk 源切到阿里, 国内访问加速
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/repositories
